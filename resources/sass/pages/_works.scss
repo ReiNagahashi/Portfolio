@@ -1,0 +1,56 @@
+.works-header{
+    height: 75rem;
+    background-blend-mode: hue;
+    position: relative;
+    transform: skewY(-7deg);
+    margin-top: -9rem;
+    background-image: linear-gradient(
+        rgba($color-secondary,0.3),
+        rgba($color-secondary,0.5)),
+        url('/upload/works-header.jpeg');
+    background-size: cover;
+    background-position: top;
+    &__title{
+        position: absolute;
+        transform: skewY(7deg);
+        color: $color-works-primary;
+        text-transform: uppercase;
+        bottom: 30%;
+        right: 7%;
+    }
+}
+
+.works-main{
+    margin-top: -9rem;
+    padding-top: 30rem;
+    background-color:$color-secondary;
+    color: $color-works-primary;
+
+    .gallery{
+        text-align: center;
+        &__title{
+            padding: 5rem 0;
+        }
+        &__image{
+            width: 100%;
+            height: 82rem;
+
+            &:hover{
+                opacity: 0.7;
+            }
+        }
+
+        .link-arrow{
+            justify-content: flex-end;
+            display: flex;
+            padding: 3rem 0;
+            transition: all .5s;
+            
+            &:hover{
+                transform: translateX(1rem);
+            }
+        }
+
+
+    }
+}

@@ -1,0 +1,72 @@
+*,
+*::after,
+*::before{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{ 
+    box-sizing: border-box;
+    color: #fff;
+    font-family: "Lato",sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.flex{
+    display: flex;
+}
+
+ul{
+    list-style: none;
+}
+
+.primary-title{
+    font-size: 9rem;
+    letter-spacing: 0.3rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.secondary-title{
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+
+}
+
+.container{
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.arrow-img{
+    height: 7rem;
+}
+
+// Works-show
+
+.arrow-text{
+    font-weight: 400;
+    font-size: 2.5rem;
+    padding: 1.7rem;
+    text-transform: uppercase;
+    color: #f39800;
+}
+
+.columns{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+footer{
+    background-color: #2a4073;
+}

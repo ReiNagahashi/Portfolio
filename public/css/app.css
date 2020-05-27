@@ -1,0 +1,499 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  color: #fff;
+  font-family: "Lato", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.flex {
+  display: flex;
+}
+
+ul {
+  list-style: none;
+}
+
+.primary-title {
+  font-size: 9rem;
+  letter-spacing: 0.3rem;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.secondary-title {
+  font-size: 2.5rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.arrow-img {
+  height: 7rem;
+}
+
+.arrow-text {
+  font-weight: 400;
+  font-size: 2.5rem;
+  padding: 1.7rem;
+  text-transform: uppercase;
+  color: #f39800;
+}
+
+.columns {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+footer {
+  background-color: #2a4073;
+}
+
+@-webkit-keyframes fadeInTitle {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInTitle {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(3rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(3rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@-webkit-keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+.hero {
+  background-image: linear-gradient(rgba(199, 0, 103, 0.3), rgba(199, 0, 103, 0.5)), url("/upload/tokyo-2269010_1280.jpg");
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  height: 80rem;
+  color: #fff;
+}
+
+.hero .heading-primary {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero .heading-primary__title {
+  -webkit-animation: fadeInTitle 0.5s ease-in 0.6s;
+          animation: fadeInTitle 0.5s ease-in 0.6s;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+}
+
+.hero .heading-primary__publisher {
+  font-size: 2rem;
+  text-align: end;
+  -webkit-animation: moveInRight 0.5s ease-in 1.5s;
+          animation: moveInRight 0.5s ease-in 1.5s;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+}
+
+.hero__box {
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 15rem;
+}
+
+.hero__box .hero-menu {
+  text-align: center;
+  text-transform: uppercase;
+  transition: all 0.1s;
+  -webkit-animation: moveInBottom 0.5s ease-in 1.5s;
+          animation: moveInBottom 0.5s ease-in 1.5s;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+}
+
+.hero__box .hero-menu a {
+  cursor: pointer;
+}
+
+.hero__box .hero-menu__text {
+  margin-bottom: 2rem;
+}
+
+.hero__box .hero-menu__image {
+  height: 8rem;
+}
+
+.hero__box .hero-menu:hover {
+  transform: scale(1.1) translateY(2rem);
+}
+
+.sections-about {
+  color: #000;
+  background-color: #c70067;
+  text-align: center;
+  padding: 10rem 0 30rem 0;
+}
+
+.sections-about p {
+  font-size: 1.6rem;
+}
+
+.sections-about__caption {
+  margin-bottom: 1rem;
+  padding-bottom: 10rem;
+  color: #fff;
+}
+
+.sections-about__contents {
+  width: 90rem;
+  margin: 0 auto;
+  border-radius: 0.5rem;
+}
+
+.sections-about .info {
+  background-color: #fff;
+  padding: 2rem 2rem 4rem 2rem;
+  width: 70rem;
+}
+
+.sections-about .info__paragraph {
+  flex: 1;
+  text-align: left;
+  margin-top: 1rem;
+}
+
+.sections-about .positions {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5rem;
+}
+
+.sections-about .positions .position-content {
+  background-color: #fff;
+  height: 35rem;
+  margin: 7rem 0;
+  transition: all 0.3s;
+}
+
+.sections-about .positions .position-content img {
+  padding: 1rem 0;
+}
+
+.sections-about .positions .position-content__title {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+.sections-about .positions .position-content__paragraph {
+  padding: 1rem 3rem;
+}
+
+.sections-about .positions .position-content:hover {
+  transform: scale(1.1);
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.6);
+}
+
+.sections-about .vision {
+  background-color: #fff;
+  height: 100rem;
+  padding: 5rem 15rem;
+}
+
+.sections-about .vision p {
+  margin: 5rem 0;
+}
+
+.sections-about .vision__caption {
+  font-size: 2.5rem;
+}
+
+.sections-about .vision__lists {
+  text-align: left;
+}
+
+.sections-about .vision .flex {
+  justify-content: center;
+}
+
+.sections-about .vision__images {
+  height: 20rem;
+}
+
+.sections-about .vision__images--2 {
+  margin-left: 5rem;
+}
+
+.works-header {
+  height: 75rem;
+  background-blend-mode: hue;
+  position: relative;
+  transform: skewY(-7deg);
+  margin-top: -9rem;
+  background-image: linear-gradient(rgba(42, 64, 115, 0.3), rgba(42, 64, 115, 0.5)), url("/upload/works-header.jpeg");
+  background-size: cover;
+  background-position: top;
+}
+
+.works-header__title {
+  position: absolute;
+  transform: skewY(7deg);
+  color: #f39800;
+  text-transform: uppercase;
+  bottom: 30%;
+  right: 7%;
+}
+
+.works-main {
+  margin-top: -9rem;
+  padding-top: 30rem;
+  background-color: #2a4073;
+  color: #f39800;
+}
+
+.works-main .gallery {
+  text-align: center;
+}
+
+.works-main .gallery__title {
+  padding: 5rem 0;
+}
+
+.works-main .gallery__image {
+  width: 100%;
+  height: 82rem;
+}
+
+.works-main .gallery__image:hover {
+  opacity: 0.7;
+}
+
+.works-main .gallery .link-arrow {
+  justify-content: flex-end;
+  display: flex;
+  padding: 3rem 0;
+  transition: all 0.5s;
+}
+
+.works-main .gallery .link-arrow:hover {
+  transform: translateX(1rem);
+}
+
+.contact {
+  padding: 15rem 0;
+  background-color: #2a4073;
+}
+
+.contact .contact-box {
+  background-color: #293250;
+  text-align: center;
+}
+
+.contact .contact-box__title {
+  padding-top: 5rem;
+  color: #f39800;
+}
+
+.contact .contact-box .contact-links {
+  font-size: 1.6rem;
+  padding: 4rem;
+}
+
+.contact .contact-box .contact-links__content {
+  margin-top: 4rem;
+}
+
+.contact .contact-box .contact-links .link-colored:hover {
+  color: #f39800;
+}
+
+small {
+  font-size: 1.6rem;
+}
+
+.works-show {
+  background-color: #2a4073;
+}
+
+.works-show .show-link {
+  padding: 3rem 0;
+  width: 16rem;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.works-show .show-link__text {
+  padding: 2rem 0;
+}
+
+.works-show .show-link:hover {
+  transform: translateX(-1rem);
+}
+
+.works-show .show-main {
+  padding: 10rem 0;
+}
+
+.works-show .show-main__title {
+  text-align: center;
+  margin-bottom: 8rem;
+  color: #f39800;
+}
+
+.works-show .show-main .contents .detail-left {
+  font-size: 1.6rem;
+}
+
+.works-show .show-main .contents .detail-left__caption {
+  font-size: 2rem;
+  justify-content: space-between;
+  width: 80%;
+  margin-bottom: 3rem;
+  color: #f39800;
+}
+
+.works-show .show-main .contents .detail-left__caption--2 {
+  margin-top: 3rem;
+}
+
+.works-show .show-main .contents .detail-left__paragraph {
+  width: 80%;
+}
+
+.works-show .show-main .contents .detail-left__paragraph p {
+  margin-top: 2rem;
+}
+
+.works-show .show-main .contents .detail-left .detail-list__info {
+  margin: 2rem auto;
+  text-align: center;
+  border-bottom: 1px solid #f39800;
+}
+
+.works-show .show-main .contents .detail-left__link {
+  margin-top: 7rem;
+}
+
+.works-show .show-main .contents .detail-right__image {
+  width: 100%;
+}
+
+.works-show .show-main .contents .detail-right__image--2 {
+  margin-top: 4rem;
+}
+
+@media (max-width: 769px) {
+  .container {
+    max-width: 65rem;
+  }
+
+  .sections-about__contents {
+    width: 65rem;
+  }
+
+  .sections-about .positions {
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+  }
+
+  .sections-about .positions .position-content {
+    height: 30rem;
+  }
+
+  .sections-about .vision {
+    height: 130rem;
+  }
+
+  .sections-about .vision .flex {
+    display: block;
+  }
+
+  .sections-about .vision__images {
+    width: 100%;
+  }
+
+  .sections-about .vision__images--2 {
+    margin: 3rem 0;
+  }
+
+  .works-main .gallery__image {
+    height: 60rem;
+  }
+}
+

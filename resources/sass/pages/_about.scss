@@ -1,0 +1,82 @@
+.sections-about{
+    color: $color-black;
+    background-color: $color-primary;
+    text-align: center;
+    padding:10rem 0 30rem 0;
+    p{
+        font-size: $font-default;
+    }
+
+    &__caption{            
+        margin-bottom: 1rem;
+        padding-bottom: 10rem;
+        color: $color-white;
+    }
+
+    &__contents{
+        width: 90rem;
+        margin: 0 auto;
+        border-radius: 0.5rem;
+    }
+    .info{
+        background-color: $color-white;
+        padding: 2rem 2rem 4rem 2rem;
+        width: 70rem;
+        &__paragraph{
+            flex:1;
+            text-align: left;
+            margin-top: 1rem;
+        }
+    }
+    .positions{
+        @include grid(5rem);
+
+         .position-content{
+            background-color: $color-white;
+            height: 35rem;
+            margin: 7rem 0;
+            transition: all 0.3s;
+            img{
+                padding: 1rem 0;
+            }
+            &__title{
+                font-size: 2rem;
+                margin:1rem 0;
+            }
+            &__paragraph{
+                padding: 1rem 3rem;
+            }
+
+            &:hover{
+                transform: scale(1.1);
+                box-shadow: 0 1.5rem 4rem rgba($color-black,.6);
+            }
+         }
+    }
+
+    .vision{
+        background-color: $color-white;
+        height: 100rem;
+        padding: 5rem 15rem;
+        p{
+            margin: 5rem 0;
+        }
+
+        &__caption{
+            font-size: 2.5rem;
+        }
+        &__lists{
+            text-align: left;
+        }
+        .flex{
+            justify-content: center;
+        }
+        &__images{
+            height: 20rem;
+
+            &--2{
+                margin-left: 5rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,59 @@
+.hero{
+    background-image: linear-gradient(
+        rgba($color-primary,0.3),
+        rgba($color-primary,0.5)),
+        url('/upload/tokyo-2269010_1280.jpg');
+    background-size: cover;
+    background-position: top;
+    position: relative; 
+    height: 80rem;
+    color: $color-white;
+
+    .heading-primary{
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        &__title{
+            animation:fadeInTitle .5s ease-in .6s;
+            animation-fill-mode: backwards;   
+        }
+        &__publisher{
+            font-size: 2rem;
+            text-align: end;
+            animation:moveInRight .5s ease-in 1.5s;
+            animation-fill-mode: backwards;               
+          }
+    }
+    
+    &__box{
+        position: absolute;
+        top: 85%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        @include grid(15rem);
+        .hero-menu{
+            text-align: center;
+            text-transform: uppercase;
+            transition: all .1s;
+            animation:moveInBottom .5s ease-in 1.5s;
+            animation-fill-mode: backwards; 
+            
+            a{
+                cursor: pointer;
+            }
+            &__text{
+                margin-bottom: 2rem;
+            }
+            &__image{
+                height: 8rem;
+            }
+
+            &:hover{
+                transform: scale(1.1) translateY(2rem);
+            }
+        }
+
+    }
+
+}

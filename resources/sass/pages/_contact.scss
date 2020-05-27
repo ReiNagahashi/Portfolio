@@ -1,0 +1,29 @@
+    .contact{
+          padding: 15rem 0;
+          background-color:$color-secondary;
+
+      .contact-box{
+            background-color:#293250;
+            text-align: center;
+
+        &__title{
+              padding-top: 5rem;
+              color: $color-works-primary;
+            }
+
+        .contact-links{
+            font-size: $font-default;
+            padding: 4rem;
+            &__content{
+                margin-top: 4rem;
+            }
+
+            .link-colored:hover{
+                color: $color-works-primary;
+            }
+        }
+      }
+    }
+    small{
+        font-size: $font-default;
+    }

@@ -1,0 +1,51 @@
+@media (max-width: 769px){
+
+    .container{
+        max-width: 65rem;
+    }
+
+    // About
+    .sections-about{
+
+        &__contents{
+            width: 65rem;
+
+        }
+
+        .positions{
+            grid-template-columns:1fr;
+            grid-gap: 1rem;
+
+            .position-content{
+                height: 30rem;
+            }
+        }
+
+        .vision{
+            height: 130rem;
+
+            .flex{
+                display: block;
+            }
+
+            &__images{
+                width: 100%;
+
+                &--2{
+                    margin: 3rem 0;
+                }
+
+            }
+        }
+    }
+
+    // Works
+    .works-main  {
+        .gallery{
+            &__image{
+                height: 60rem;
+            }
+        }
+    }
+
+}
