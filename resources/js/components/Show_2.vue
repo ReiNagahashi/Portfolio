@@ -25,6 +25,9 @@
                             <p>In contrast, I used mostly Materialize CSS(which is CSS frame work ) on Home page to compare the differences of frame work and pure css page.</p> 
                             <p>Moreover.The delivery page is the website's main page, which I was willing to use Vanila Javascript for various aspects such of setting address, Carousel etc… Frankly, here is pretty fun! You can type your address and choose your favorite burger to put it into a cart. If you wanna examine my Javascript ability, I recommend to inspect this page carefully.</p> 
                         </div>
+                        <div class="detail-left__view-link">
+                            <a href="https://github.com/ReiNagahashi/BurgerGeek" target="blank"><i class="fab fa-github"></i>  View Git Repository</a>
+                        </div>
                         <div class="detail-left__caption detail-left__caption--2 flex">
                             <span>〜〜〜〜</span>
                                 <div class="caption-text">Tool</div>

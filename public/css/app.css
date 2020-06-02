@@ -440,6 +440,21 @@ small {
   margin-top: 2rem;
 }
 
+.works-show .show-main .contents .detail-left__view-link {
+  margin: 3rem;
+  text-align: center;
+  width: 80%;
+}
+
+.works-show .show-main .contents .detail-left__view-link a {
+  color: #f39800;
+  font-size: 2rem;
+}
+
+.works-show .show-main .contents .detail-left__view-link a:hover {
+  color: #c70067;
+}
+
 .works-show .show-main .contents .detail-left .detail-list__info {
   margin: 2rem auto;
   text-align: center;

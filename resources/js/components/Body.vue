@@ -59,7 +59,7 @@
                 <section class="vision sections-about__contents">
                     <h4 class="vision__caption">My Vision</h4>
                     <p><b>“Express globally”</b></p>
-                    <p>It’s my belief which pushes my back to create something innovative and novel. Ive started to learn English and programming as my priority based on above ambition since 20 years old(2018), then I decided to visit India and Vietnam to get those skills and passion.</p>
+                    <p>It’s my belief which pushes my back to create something innovative and novel. I have started to learn English and programming as my priority based on above ambition since 20 years old(2018), then I decided to visit India and Vietnam to get those skills and passion.</p>
                     <p>Those are what I did so far</p>
                     <p><ul class="vision__lists">
                         <li>-Going abroad for studying English in Cebu (2019/2 ~ /3)</li>
@@ -70,7 +70,7 @@
                         <img :src="images.exImages[0]" class="vision__images vision__images--1" alt="vision-image">
                         <img :src="images.exImages[1]" class="vision__images vision__images--2" alt="vision-image">
                     </div>
-                    <p> Throughout my experience in staying foreign countries, I felt that customers demand something quite different they are keen on in each countries obviously. However, I would like to create stuffs for helping customers no matter where they live in as much as I can by using IT. </p>
+                    <p> Throughout my experience in staying in foreign countries, I felt that customers demand something quite different they are keen on in each countries obviously. However, I would like to create stuffs for helping customers no matter where they live in as much as I can by using IT. </p>
                 </section>
             </div>
         <!-- Works -->

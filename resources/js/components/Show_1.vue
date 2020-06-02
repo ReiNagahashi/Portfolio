@@ -26,6 +26,9 @@
                             <p>But before communicating with them, you should make your profile because another users can notice your information easily (ex, your favorite music, your image, your native place like that…).</p> 
                             <p>Finally when you get along with someone, you can follow them, the follow system will become a symbol of trust and you can hang out with anyone more with music!</p>
                         </div>
+                        <div class="detail-left__view-link">
+                            <a href="http://musiccompassrei.herokuapp.com" target="blank"><i class="fas fa-search-plus"></i>  View This Web Site</a>
+                        </div>
                         <div class="detail-left__caption detail-left__caption--2 flex">
                             <span>〜〜〜〜</span>
                                 <div class="caption-text">Tool</div>

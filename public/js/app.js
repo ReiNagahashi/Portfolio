@@ -3065,6 +3065,9 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -3086,6 +3089,9 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
 //
 //
 //
@@ -21574,7 +21580,7 @@ var render = function() {
             _vm._v(" "),
             _c("p", [
               _vm._v(
-                "It’s my belief which pushes my back to create something innovative and novel. Ive started to learn English and programming as my priority based on above ambition since 20 years old(2018), then I decided to visit India and Vietnam to get those skills and passion."
+                "It’s my belief which pushes my back to create something innovative and novel. I have started to learn English and programming as my priority based on above ambition since 20 years old(2018), then I decided to visit India and Vietnam to get those skills and passion."
               )
             ]),
             _vm._v(" "),
@@ -21596,7 +21602,7 @@ var render = function() {
             _vm._v(" "),
             _c("p", [
               _vm._v(
-                " Throughout my experience in staying foreign countries, I felt that customers demand something quite different they are keen on in each countries obviously. However, I would like to create stuffs for helping customers no matter where they live in as much as I can by using IT. "
+                " Throughout my experience in staying in foreign countries, I felt that customers demand something quite different they are keen on in each countries obviously. However, I would like to create stuffs for helping customers no matter where they live in as much as I can by using IT. "
               )
             ])
           ])
@@ -21950,6 +21956,8 @@ var render = function() {
             _vm._v(" "),
             _vm._m(3),
             _vm._v(" "),
+            _vm._m(4),
+            _vm._v(" "),
             _c("div", { staticClass: "show-link flex detail-left__link" }, [
               _c(
                 "a",
@@ -22053,6 +22061,26 @@ var staticRenderFns = [
         ])
       ]
     )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "detail-left__view-link" }, [
+      _c(
+        "a",
+        {
+          attrs: {
+            href: "http://musiccompassrei.herokuapp.com",
+            target: "blank"
+          }
+        },
+        [
+          _c("i", { staticClass: "fas fa-search-plus" }),
+          _vm._v("  View This Web Site")
+        ]
+      )
+    ])
   },
   function() {
     var _vm = this
@@ -22167,6 +22195,8 @@ var render = function() {
             _vm._v(" "),
             _vm._m(3),
             _vm._v(" "),
+            _vm._m(4),
+            _vm._v(" "),
             _c("div", { staticClass: "show-link flex detail-left__link" }, [
               _c(
                 "a",
@@ -22268,6 +22298,26 @@ var staticRenderFns = [
         ])
       ]
     )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "detail-left__view-link" }, [
+      _c(
+        "a",
+        {
+          attrs: {
+            href: "https://github.com/ReiNagahashi/BurgerGeek",
+            target: "blank"
+          }
+        },
+        [
+          _c("i", { staticClass: "fab fa-github" }),
+          _vm._v("  View Git Repository")
+        ]
+      )
+    ])
   },
   function() {
     var _vm = this

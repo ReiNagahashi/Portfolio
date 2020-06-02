@@ -44,7 +44,19 @@
                         margin-top: 2rem;
                     }
                 }
+                &__view-link{
+                    margin: 3rem;
+                    text-align: center;
+                    width: 80%;
+                    a{
+                        color: $color-works-primary;
+                        font-size: 2rem;
 
+                        &:hover{
+                            color: $color-primary;
+                        }
+                    }
+                }
 
                 .detail-list{
                     &__info{
