@@ -4,6 +4,14 @@
         max-width: 65rem;
     }
 
+    // Hero
+
+    .hero{
+        &__box{
+            grid-gap: 8rem;
+        }
+    }
+
     // About
     .sections-about{
 

@@ -478,6 +478,10 @@ small {
     max-width: 65rem;
   }
 
+  .hero__box {
+    grid-gap: 8rem;
+  }
+
   .sections-about__contents {
     width: 65rem;
   }

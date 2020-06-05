@@ -120,6 +120,7 @@
                         <section class="contact-links">
                             <p class="contact-links__content">Email: rerenaga9170@icloud.com</p>
                             <p class="contact-links__content">Face Book: <a href="https://www.facebook.com/rei.nagahashi.9" class="link-colored" target="_blank">facebook.com/rei.nagahashi.9</a></p>
+                            <p class="contact-links__content">Linkedin: <a href="https://www.linkedin.com/in/rei-nagahashi-76b5611ab" class="link-colored" target="_blank">www.linkedin.com/in/rei-nagahashi-76b5611ab</a></p>
                             <p class="contact-links__content">Cloud-Works: <a href="https://crowdworks.jp/public/employees/3255734?ref=mypage_nav1_account" class="link-colored" target="_blank">https://crowdworks.jp/public/employees/3255734?ref=mypage_nav1_account</a></p>
                         </section>
                     </div>

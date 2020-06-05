@@ -2979,6 +2979,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -21850,6 +21851,21 @@ var staticRenderFns = [
                   }
                 },
                 [_vm._v("facebook.com/rei.nagahashi.9")]
+              )
+            ]),
+            _vm._v(" "),
+            _c("p", { staticClass: "contact-links__content" }, [
+              _vm._v("Linkedin: "),
+              _c(
+                "a",
+                {
+                  staticClass: "link-colored",
+                  attrs: {
+                    href: "https://www.linkedin.com/in/rei-nagahashi-76b5611ab",
+                    target: "_blank"
+                  }
+                },
+                [_vm._v("www.linkedin.com/in/rei-nagahashi-76b5611ab")]
               )
             ]),
             _vm._v(" "),
