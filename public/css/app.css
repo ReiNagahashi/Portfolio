@@ -10,6 +10,24 @@ html {
   font-size: 62.5%;
 }
 
+@media (min-width: 112.5em) {
+  html {
+    font-size: 75%;
+  }
+}
+
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+@media (max-width: 56.25em) {
+  html {
+    font-size: 50%;
+  }
+}
+
 body {
   box-sizing: border-box;
   color: #fff;
@@ -41,13 +59,25 @@ ul {
   text-transform: uppercase;
 }
 
+@media (max-width: 37.5em) {
+  .secondary-title {
+    font-size: 2rem;
+  }
+}
+
 .container {
-  max-width: 120rem;
+  max-width: 105rem;
   margin: 0 auto;
 }
 
 .arrow-img {
   height: 7rem;
+}
+
+@media (max-width: 37.5em) {
+  .arrow-img {
+    height: 5rem;
+  }
 }
 
 .arrow-text {
@@ -56,6 +86,12 @@ ul {
   padding: 1.7rem;
   text-transform: uppercase;
   color: #f39800;
+}
+
+@media (max-width: 37.5em) {
+  .arrow-text {
+    font-size: 1.5rem;
+  }
 }
 
 .columns {
@@ -175,7 +211,19 @@ footer {
   transform: translate(-50%, -50%);
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 15rem;
+  grid-gap: 13rem;
+}
+
+@media (max-width: 56.25em) {
+  .hero__box {
+    grid-gap: 10rem;
+  }
+}
+
+@media (max-width: 37.5em) {
+  .hero__box {
+    grid-gap: 2rem;
+  }
 }
 
 .hero__box .hero-menu {
@@ -200,6 +248,12 @@ footer {
   height: 8rem;
 }
 
+@media (max-width: 56.25em) {
+  .hero__box .hero-menu__image {
+    height: 6rem;
+  }
+}
+
 .hero__box .hero-menu:hover {
   transform: scale(1.1) translateY(2rem);
 }
@@ -209,6 +263,12 @@ footer {
   background-color: #c70067;
   text-align: center;
   padding: 10rem 0 30rem 0;
+}
+
+@media (max-width: 56.25em) {
+  .sections-about {
+    padding-top: 7rem;
+  }
 }
 
 .sections-about p {
@@ -221,16 +281,28 @@ footer {
   color: #fff;
 }
 
+@media (max-width: 56.25em) {
+  .sections-about__caption {
+    padding-bottom: 7rem;
+  }
+}
+
 .sections-about__contents {
   width: 90rem;
   margin: 0 auto;
   border-radius: 0.5rem;
 }
 
+@media (max-width: 56.25em) {
+  .sections-about__contents {
+    width: 90%;
+  }
+}
+
 .sections-about .info {
   background-color: #fff;
   padding: 2rem 2rem 4rem 2rem;
-  width: 70rem;
+  width: 70%;
 }
 
 .sections-about .info__paragraph {
@@ -245,11 +317,24 @@ footer {
   grid-gap: 5rem;
 }
 
+@media (max-width: 56.25em) {
+  .sections-about .positions {
+    display: block;
+  }
+}
+
 .sections-about .positions .position-content {
   background-color: #fff;
   height: 35rem;
   margin: 7rem 0;
   transition: all 0.3s;
+}
+
+@media (max-width: 56.25em) {
+  .sections-about .positions .position-content {
+    height: 32rem;
+    padding: 0 3rem;
+  }
 }
 
 .sections-about .positions .position-content img {
@@ -276,12 +361,24 @@ footer {
   padding: 5rem 15rem;
 }
 
+@media (max-width: 37.5em) {
+  .sections-about .vision {
+    height: 139rem;
+    padding: 5rem 6rem;
+  }
+}
+
 .sections-about .vision p {
-  margin: 5rem 0;
+  margin: 3.3rem 0;
 }
 
 .sections-about .vision__caption {
   font-size: 2.5rem;
+}
+
+.sections-about .vision__strength {
+  border-bottom: 2px solid #c70067;
+  display: inline-block;
 }
 
 .sections-about .vision__lists {
@@ -292,12 +389,34 @@ footer {
   justify-content: center;
 }
 
+@media (max-width: 37.5em) {
+  .sections-about .vision .flex {
+    display: block;
+    width: 100%;
+  }
+}
+
 .sections-about .vision__images {
   height: 20rem;
+  width: 30rem;
+}
+
+@media (max-width: 37.5em) {
+  .sections-about .vision__images {
+    width: 100%;
+    height: 100%;
+  }
 }
 
 .sections-about .vision__images--2 {
   margin-left: 5rem;
+}
+
+@media (max-width: 37.5em) {
+  .sections-about .vision__images--2 {
+    margin-left: 0;
+    margin-top: 3rem;
+  }
 }
 
 .works-header {
@@ -320,44 +439,56 @@ footer {
   right: 7%;
 }
 
-.works-main {
+.secondarySection {
   margin-top: -9rem;
   padding-top: 30rem;
   background-color: #2a4073;
   color: #f39800;
 }
 
-.works-main .gallery {
+@media (max-width: 37.5em) {
+  .secondarySection {
+    padding-top: 20rem;
+  }
+}
+
+.secondarySection .gallery {
   text-align: center;
 }
 
-.works-main .gallery__title {
+.secondarySection .gallery__title {
   padding: 5rem 0;
 }
 
-.works-main .gallery__image {
+.secondarySection .gallery__image {
   width: 100%;
   height: 82rem;
 }
 
-.works-main .gallery__image:hover {
+@media (max-width: 37.5em) {
+  .secondarySection .gallery__image {
+    height: 100%;
+  }
+}
+
+.secondarySection .gallery__image:hover {
   opacity: 0.7;
 }
 
-.works-main .gallery .link-arrow {
+.secondarySection .gallery .link-arrow {
   justify-content: flex-end;
   display: flex;
   padding: 3rem 0;
   transition: all 0.5s;
 }
 
-.works-main .gallery .link-arrow:hover {
+.secondarySection .gallery .link-arrow:hover {
   transform: translateX(1rem);
 }
 
 .contact {
   padding: 15rem 0;
-  background-color: #2a4073;
+  color: #fff;
 }
 
 .contact .contact-box {
@@ -393,9 +524,9 @@ small {
 
 .works-show .show-link {
   padding: 3rem 0;
-  width: 16rem;
   cursor: pointer;
   transition: all 0.5s;
+  align-items: center;
 }
 
 .works-show .show-link__text {
@@ -416,8 +547,21 @@ small {
   color: #f39800;
 }
 
+@media (max-width: 56.25em) {
+  .works-show .show-main .contents {
+    flex-direction: column-reverse;
+  }
+}
+
 .works-show .show-main .contents .detail-left {
   font-size: 1.6rem;
+}
+
+@media (max-width: 56.25em) {
+  .works-show .show-main .contents .detail-left {
+    align-items: center;
+    margin-top: 10rem;
+  }
 }
 
 .works-show .show-main .contents .detail-left__caption {
@@ -473,46 +617,9 @@ small {
   margin-top: 4rem;
 }
 
-@media (max-width: 769px) {
-  .container {
-    max-width: 65rem;
-  }
-
-  .hero__box {
-    grid-gap: 8rem;
-  }
-
-  .sections-about__contents {
-    width: 65rem;
-  }
-
-  .sections-about .positions {
-    grid-template-columns: 1fr;
-    grid-gap: 1rem;
-  }
-
-  .sections-about .positions .position-content {
-    height: 30rem;
-  }
-
-  .sections-about .vision {
-    height: 130rem;
-  }
-
-  .sections-about .vision .flex {
-    display: block;
-  }
-
-  .sections-about .vision__images {
-    width: 100%;
-  }
-
-  .sections-about .vision__images--2 {
-    margin: 3rem 0;
-  }
-
-  .works-main .gallery__image {
-    height: 60rem;
+@media (max-width: 56.25em) {
+  .works-show .show-main .contents .detail-right__image--2 {
+    margin-top: 5rem;
   }
 }
 

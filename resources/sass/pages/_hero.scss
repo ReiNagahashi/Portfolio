@@ -31,7 +31,14 @@
         top: 85%;
         left: 50%;
         transform: translate(-50%,-50%);
-        @include grid(15rem);
+        @include grid(13rem);
+
+        @include respond(tab-port){
+            grid-gap: 10rem;
+        }
+        @include respond(phone){
+            grid-gap: 2rem;
+        }
         .hero-menu{
             text-align: center;
             text-transform: uppercase;
@@ -47,6 +54,9 @@
             }
             &__image{
                 height: 8rem;
+                @include respond(tab-port){
+                    height: 6rem;
+                }
             }
 
             &:hover{

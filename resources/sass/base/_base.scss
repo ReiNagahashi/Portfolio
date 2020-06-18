@@ -8,17 +8,27 @@
 
 html{
     font-size: 62.5%;
+
+    @include respond(big-desk){
+        font-size: 75%; //1rem = 12px; 12px/16 = 75%;
+    }
+    @include respond(tab-land){
+        font-size: 56.25%; //1rem = 9px; 9px/16 = 56.25%%;
+    }
+    @include respond(tab-port){
+        font-size: 50%; //1rem = 8px; 8px/16 = 50%;
+    }
 }
 
 body{ 
     box-sizing: border-box;
-    color: #fff;
+    color: $color-white;
     font-family: "Lato",sans-serif;
 }
 
 a{
     text-decoration: none;
-    color: #fff;
+    color: $color-white;
 }
 
 .flex{
@@ -40,15 +50,22 @@ ul{
     font-weight: 900;
     text-transform: uppercase;
 
+    @include respond(phone){
+        font-size: 2rem;
+    }
 }
 
 .container{
-    max-width: 120rem;
+    max-width: 105rem;
     margin: 0 auto;
 }
 
 .arrow-img{
     height: 7rem;
+
+    @include respond(phone){
+        height: 5rem;
+    }
 }
 
 // Works-show
@@ -58,7 +75,12 @@ ul{
     font-size: 2.5rem;
     padding: 1.7rem;
     text-transform: uppercase;
-    color: #f39800;
+    color: $color-works-primary;
+
+    @include respond(phone){
+          font-size: 1.5rem;
+
+    }
 }
 
 .columns{
@@ -68,5 +90,5 @@ ul{
 }
 
 footer{
-    background-color: #2a4073;
+    background-color: $color-secondary;
 }

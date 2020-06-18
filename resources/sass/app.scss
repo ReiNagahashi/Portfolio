@@ -1,14 +1,11 @@
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
 @import "base/base";
 @import "base/animations";
-
-@import "abstracts/variables";
-@import "abstracts/mixins.scss";
 
 @import "pages/hero";
 @import"pages/about";
 @import"pages/works";
 @import"pages/contact";
 @import"pages/work-show";
-
-// Mobile
-@import "base/mobile";

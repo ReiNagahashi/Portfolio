@@ -3,9 +3,10 @@
 
     .show-link{
         padding: 3rem 0;
-        width: 16rem;
         cursor: pointer; 
         transition: all .5s;
+        align-items: center;
+        
         &__text{
             padding: 2rem 0;
         }
@@ -24,8 +25,17 @@
         
         .contents{
 
+            @include respond(tab-port){
+                flex-direction: column-reverse;
+            }
+
             .detail-left{
                 font-size: $font-default;
+
+                @include respond(tab-port){
+                    align-items: center;
+                    margin-top: 10rem;
+                }
 
                 &__caption{
                     font-size: 2rem;
@@ -78,6 +88,10 @@
 
                     &--2{
                         margin-top: 4rem;
+                        
+                        @include respond(tab-port){
+                            margin-top: 5rem;
+                        }
                     }
                 }
             }

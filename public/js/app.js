@@ -2980,6 +2980,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -21524,7 +21525,7 @@ var render = function() {
           _c("div", { staticClass: "positions sections-about__contents" }, [
             _c("section", { staticClass: "position-content" }, [
               _c("img", {
-                staticClass: "content__image--i1",
+                staticClass: "position-content__image",
                 attrs: { src: _vm.images.iconImages[0], alt: "icon__image" }
               }),
               _vm._v(" "),
@@ -21541,7 +21542,7 @@ var render = function() {
             _vm._v(" "),
             _c("section", { staticClass: "position-content" }, [
               _c("img", {
-                staticClass: "content__image--i2",
+                staticClass: "position-content__image",
                 attrs: { src: _vm.images.iconImages[1], alt: "icon__image" }
               }),
               _vm._v(" "),
@@ -21558,7 +21559,7 @@ var render = function() {
             _vm._v(" "),
             _c("section", { staticClass: "position-content" }, [
               _c("img", {
-                staticClass: "content__image--i3",
+                staticClass: "position-content__image",
                 attrs: { src: _vm.images.iconImages[2], alt: "icon__image" }
               }),
               _vm._v(" "),
@@ -21585,7 +21586,9 @@ var render = function() {
               )
             ]),
             _vm._v(" "),
-            _c("p", [_vm._v("Those are what I did so far")]),
+            _c("p", { staticClass: "vision__strength" }, [
+              _vm._v("Those are what I did so far")
+            ]),
             _vm._v(" "),
             _vm._m(3),
             _vm._v(" "),
@@ -21612,7 +21615,7 @@ var render = function() {
         _c("div", [
           _vm._m(4),
           _vm._v(" "),
-          _c("div", { staticClass: "works-main" }, [
+          _c("div", { staticClass: "secondarySection" }, [
             _c("div", { staticClass: "container" }, [
               _c(
                 "section",
@@ -21731,11 +21734,11 @@ var render = function() {
                 ],
                 1
               )
-            ])
+            ]),
+            _vm._v(" "),
+            _vm._m(5)
           ])
-        ]),
-        _vm._v(" "),
-        _vm._m(5)
+        ])
       ]
     ),
     _vm._v(" "),
@@ -21787,7 +21790,9 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("p", [_c("b", [_vm._v("“Express globally”")])])
+    return _c("p", { staticClass: "vision__strength" }, [
+      _c("b", [_vm._v("“Express globally”")])
+    ])
   },
   function() {
     var _vm = this

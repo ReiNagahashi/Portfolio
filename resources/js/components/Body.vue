@@ -41,26 +41,26 @@
                 </section>
                 <div class="positions sections-about__contents">
                     <section class="position-content">
-                        <img :src="images.iconImages[0]" class="content__image--i1" alt="icon__image"> 
+                        <img :src="images.iconImages[0]" class="position-content__image" alt="icon__image"> 
                         <h4 class="position-content__title">Design</h4>
                         <p class="position-content__paragraph">The experience is that creating some of existing works(Landing page, Icon like those...) by following tutorials.Then I completed completely original own design work in the end by creating this Portfolio!</p>
                     </section>
                     <section class="position-content">
-                        <img :src="images.iconImages[1]" class="content__image--i2" alt="icon__image"> 
+                        <img :src="images.iconImages[1]" class="position-content__image" alt="icon__image"> 
                         <h4 class="position-content__title">Front End</h4>
                         <p class="position-content__paragraph">I have almost done enjoying Vanila Javascript mainly included ES6.Nowadays, I have been trying to manipulate Vue.js(framework of javascript) with laravel.</p>
                     </section>
                     <section class="position-content">
-                        <img :src="images.iconImages[2]" class="content__image--i3" alt="icon__image"> 
+                        <img :src="images.iconImages[2]" class="position-content__image" alt="icon__image"> 
                         <h4 class="position-content__title">Back End</h4>
                         <p class="position-content__paragraph">Essencially, I have started doing programming through learning PHP(Laravel). It means that I have the longest experience about Laravel among I have so far.</p>
                     </section>
                 </div>
                 <section class="vision sections-about__contents">
                     <h4 class="vision__caption">My Vision</h4>
-                    <p><b>“Express globally”</b></p>
+                    <p class="vision__strength"><b>“Express globally”</b></p>
                     <p>It’s my belief which pushes my back to create something innovative and novel. I have started to learn English and programming as my priority based on above ambition since 20 years old(2018), then I decided to visit India and Vietnam to get those skills and passion.</p>
-                    <p>Those are what I did so far</p>
+                    <p class="vision__strength">Those are what I did so far</p>
                     <p><ul class="vision__lists">
                         <li>-Going abroad for studying English in Cebu (2019/2 ~ /3)</li>
                         <li>-Going abroad for studying English and programming in Bangalore (2019/4 ~ /9)</li>
@@ -78,7 +78,7 @@
                 <div class="works-header">
                     <h1 class="works-header__title primary-title">works</h1>
                 </div>
-                <div class="works-main">
+                <div class="secondarySection">
                     <div class="container">
                         <section class="gallery">
                             <div class="gallery__title gallery__title--1 secondary-title">Music Compass</div>
@@ -109,8 +109,7 @@
                             </div>
                         </section>
                     </div>
-                </div>
-            </div>
+
             <div class="contact">
                 <div class="container">
                     <div class="contact-box">
@@ -126,11 +125,13 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
         </main>
         <footer>
              <small>2020 Desiged By Rei Nagahashi</small>
         </footer>
-    </div>
+     </div>
 </template>
 
 <script>
