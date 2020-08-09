@@ -2,7 +2,6 @@
           padding: 15rem 0;
           color: $color-white;
       .contact-box{
-            background-color:#293250;
             text-align: center;
 
         &__title{
@@ -14,7 +13,8 @@
             font-size: $font-default;
             padding: 4rem;
             &__content{
-                margin-top: 4rem;
+                margin: 2rem;
+                display: inline-block;
             }
 
             .link-colored:hover{

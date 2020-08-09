@@ -1,11 +1,15 @@
 .works-show{
     background-color: $color-secondary;
+    position: relative;
+    overflow: hidden;
 
     .show-link{
         padding: 3rem 0;
         cursor: pointer; 
         transition: all .5s;
         align-items: center;
+        position: relative;
+        z-index: 100;
         
         &__text{
             padding: 2rem 0;
@@ -15,23 +19,32 @@
             transform: translateX(-1rem);
         }
     }
+
     .show-main{
-        padding: 10rem 0;
+        padding: 10rem 0;        
+
         &__title{
             text-align: center;
-            margin-bottom: 8rem;
-            color: $color-works-primary;
+            color: $color-works-primary;   
+        }
+
+        .title-box{
+            display: flex;
+            align-items: center;
+            margin: 6rem 0;
+            justify-content: center;
+
         }
         
         .contents{
+            font-size: $font-default;
+            margin-top: 3rem;
 
             @include respond(tab-port){
                 flex-direction: column-reverse;
             }
 
             .detail-left{
-                font-size: $font-default;
-
                 @include respond(tab-port){
                     align-items: center;
                     margin-top: 10rem;
@@ -61,18 +74,9 @@
                     a{
                         color: $color-works-primary;
                         font-size: 2rem;
-
                         &:hover{
                             color: $color-primary;
                         }
-                    }
-                }
-
-                .detail-list{
-                    &__info{
-                        margin: 2rem auto;
-                        text-align: center;
-                        border-bottom: 1px solid $color-works-primary;
                     }
                 }
 
@@ -80,23 +84,76 @@
                     margin-top: 7rem;
                 }
             }
-
-            .detail-right{
-
+            .detail-right,.detail-images{
                 &__image{
                     width: 100%;
 
                     &--2{
-                        margin-top: 4rem;
-                        
-                        @include respond(tab-port){
-                            margin-top: 5rem;
-                        }
+                        margin-top: 10rem;
+       
                     }
                 }
             }
+            // Tool List
+            .detail-list{
+                &__info{
+                    margin: 2rem auto;
+                    text-align: center;
+                    border-bottom: 1px solid $color-works-primary;
+                    font-size: 2.5rem;
+                    padding: 3rem;
+                }
+            }
+            
+            // Show_3
+            .info-tool{
+                text-align: center;
+                padding: 0 8rem;
+                &__caption{
+                    color: $color-works-primary;
+                    font-size: 4rem;
+                    font-weight: 700;
+                    letter-spacing: 0.3rem;
+                    padding: 0 6rem;
+                }
+            }
+            .info{
+                &__paragraph{
+                    text-align: left;
+                    line-height: 3rem;
+                    margin-bottom: 4rem;
+                }
+
+                &__view-link{
+
+                    a{
+                        color: $color-works-primary;
+                        font-size: 3rem;
+                        &:hover{
+                            color: $color-primary;
+                        }
+                    }
+
+                    .viewWeb{
+                        margin-left: 2rem;
+                    }
+                }
+            }
+            .tool{
+                margin-bottom: 15rem;
+            }
         }
     }
-
 }
+
+// Kinesis
+    // Bubble icon
+    .bubble{
+        fill: $color-works-primary;
+        opacity: .8;
+    }
+    .float-bubble{
+        position: absolute;
+        z-index: -100;
+    }
 
