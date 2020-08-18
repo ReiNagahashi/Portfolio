@@ -2998,8 +2998,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -26539,13 +26537,13 @@ var render = function() {
               )
             ]),
             _vm._v(" "),
-            _vm._m(4)
+            _vm._m(4),
+            _vm._v(" "),
+            _c("small", [_vm._v("2020 Desiged By Rei Nagahashi")])
           ])
         ])
       ]
-    ),
-    _vm._v(" "),
-    _vm._m(5)
+    )
   ])
 }
 var staticRenderFns = [
@@ -26668,7 +26666,10 @@ var staticRenderFns = [
           _vm._v(" "),
           _c("ul", { staticClass: "contact-links" }, [
             _c("li", { staticClass: "contact-links__content" }, [
-              _vm._v("Email: rerenaga9170@icloud.com")
+              _vm._v("Email: "),
+              _c("span", { staticClass: "link-colored" }, [
+                _vm._v("rerenaga9170@icloud.com")
+              ])
             ]),
             _vm._v(" "),
             _c("li", { staticClass: "contact-links__content" }, [
@@ -26689,14 +26690,6 @@ var staticRenderFns = [
           ])
         ])
       ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("footer", [
-      _c("small", [_vm._v("2020 Desiged By Rei Nagahashi")])
     ])
   }
 ]

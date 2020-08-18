@@ -81,6 +81,10 @@
         color: $color-white;
         padding: 5rem 15rem;
 
+        @include respond(tab-port){
+            padding: 4rem;
+        }
+
         h2:not(:first-child){
             margin-top: 6rem;
         }
@@ -90,6 +94,7 @@
             margin: 3.3rem 0;
             line-height: 3rem;
         }
+
         // For text align
         &__paragraph{
             text-align: left
@@ -116,7 +121,7 @@
             border-top: 10px solid $color-white;
             border-radius: 15px;
             padding: 5rem 0;
-            margin-top: 5rem;
+            margin-top: 8rem;
 
             @include respond(tab-port){
                 font-size: 2rem;

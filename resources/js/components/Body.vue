@@ -138,18 +138,16 @@
                             Contact
                         </h1>
                         <ul class="contact-links">
-                            <li class="contact-links__content">Email: rerenaga9170@icloud.com</li>
+                            <li class="contact-links__content">Email: <span class="link-colored">rerenaga9170@icloud.com</span></li>
                             <li class="contact-links__content">Linkedin: <a href="httlis://www.linkedin.com/in/rei-nagahashi-76b5611ab" class="link-colored" target="_blank">www.linkedin.com/in/rei-nagahashi-76b5611ab</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
+            <small>2020 Desiged By Rei Nagahashi</small>
         </div>
     </div>
  </main>
- <footer>
-        <small>2020 Desiged By Rei Nagahashi</small>
- </footer>
 </div>
 </template>
 
