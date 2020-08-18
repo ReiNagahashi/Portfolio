@@ -26223,61 +26223,6 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", { attrs: { id: "portfolio" } }, [
-    _c("header", { staticClass: "hero" }, [
-      _vm._m(0),
-      _vm._v(" "),
-      _c(
-        "div",
-        {
-          directives: [
-            { name: "scroll-spy-active", rawName: "v-scroll-spy-active" },
-            { name: "scroll-spy-link", rawName: "v-scroll-spy-link" }
-          ],
-          staticClass: "hero__box"
-        },
-        [
-          _c("section", { staticClass: "hero-menu" }, [
-            _c("a", [
-              _c("h2", { staticClass: "hero-menu__text secondary-title" }, [
-                _vm._v("About")
-              ]),
-              _vm._v(" "),
-              _c("img", {
-                staticClass: "hero-menu__image",
-                attrs: { src: _vm.images.arrow_image, alt: "menu__image" }
-              })
-            ])
-          ]),
-          _vm._v(" "),
-          _c("section", { staticClass: "hero-menu" }, [
-            _c("a", [
-              _c("h2", { staticClass: "hero-menu__text secondary-title" }, [
-                _vm._v("Works")
-              ]),
-              _vm._v(" "),
-              _c("img", {
-                staticClass: "hero-menu__image",
-                attrs: { src: _vm.images.arrow_image, alt: "menu__image" }
-              })
-            ])
-          ]),
-          _vm._v(" "),
-          _c("section", { staticClass: "hero-menu" }, [
-            _c("a", [
-              _c("h2", { staticClass: "hero-menu__text secondary-title" }, [
-                _vm._v("Contact")
-              ]),
-              _vm._v(" "),
-              _c("img", {
-                staticClass: "hero-menu__image",
-                attrs: { src: _vm.images.arrow_image, alt: "menu__image" }
-              })
-            ])
-          ])
-        ]
-      )
-    ]),
-    _vm._v(" "),
     _c(
       "main",
       {
@@ -26296,7 +26241,7 @@ var render = function() {
             _vm._v("About Me")
           ]),
           _vm._v(" "),
-          _vm._m(1),
+          _vm._m(0),
           _vm._v(" "),
           _c("div", { staticClass: "positions sections-about__contents" }, [
             _c("section", { staticClass: "position-content" }, [
@@ -26351,11 +26296,11 @@ var render = function() {
             ])
           ]),
           _vm._v(" "),
-          _vm._m(2)
+          _vm._m(1)
         ]),
         _vm._v(" "),
         _c("div", [
-          _vm._m(3),
+          _vm._m(2),
           _vm._v(" "),
           _c("div", { staticClass: "secondarySection" }, [
             _c("div", { staticClass: "container" }, [
@@ -26537,7 +26482,7 @@ var render = function() {
               )
             ]),
             _vm._v(" "),
-            _vm._m(4),
+            _vm._m(3),
             _vm._v(" "),
             _c("small", [_vm._v("2020 Desiged By Rei Nagahashi")])
           ])
@@ -26547,20 +26492,6 @@ var render = function() {
   ])
 }
 var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "heading-primary" }, [
-      _c("h1", { staticClass: "heading-primary__title primary-title" }, [
-        _vm._v("Portfolio")
-      ]),
-      _vm._v(" "),
-      _c("h4", { staticClass: "heading-primary__publisher" }, [
-        _c("i", [_vm._v("By Rei Nagahashi")])
-      ])
-    ])
-  },
   function() {
     var _vm = this
     var _h = _vm.$createElement

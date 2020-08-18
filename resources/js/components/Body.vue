@@ -1,6 +1,6 @@
 <template>
     <div id="portfolio">
-        <header class="hero">
+        <!-- <header class="hero">
                 <div class="heading-primary">
                     <h1 class="heading-primary__title primary-title">Portfolio</h1>
                     <h4 class="heading-primary__publisher"><i>By Rei Nagahashi</i></h4>
@@ -25,7 +25,7 @@
                         </a>
                     </section>
                 </div>
-        </header>
+        </header> -->
         <main v-scroll-spy = "{time: 1000, steps: 90}">
             <div class="sections-about">
                 <h1 class="sections-about__caption secondary-title">About Me</h1>
