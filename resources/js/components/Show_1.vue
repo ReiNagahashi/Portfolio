@@ -44,20 +44,27 @@
                                 <li class="detail-list__info">Heroku</li>
                             </ul>
                         </div>
-                        <div class="show-link flex detail-left__link">
-                            <a @click="$router.go(-1)">
-                                <img :src="images.worksImages[0]" alt="show-icon" class="show-link__arrow arrow-img">
-                            </a>
-                            <a @click="$router.go(-1)" class="show-link__text">
-                                <span class="arrow-text">Back</span>
-                            </a>
-                        </div>
                     </div>
                     <div class="detail-right columns">
                         <img :src="images.worksImages[1]" class="detail-right__image detail-right__image--1" alt="detail-image">
                         <img :src="images.worksImages[2]" class="detail-right__image detail-right__image--2" alt="detail-image">
                     </div>
                 </article>
+            </div>
+            <!-- gallery -->
+            <section class="gallery">
+                <img :src="images.worksImages[4]" class="gallery__image gallery__image--2" alt="gallery image">
+                <img :src="images.worksImages[5]" class="gallery__image gallery__image--3" alt="gallery image">
+                <img :src="images.worksImages[3]" class="gallery__image gallery__image--1" alt="gallery image">
+                <img :src="images.worksImages[6]" class="gallery__image gallery__image--3" alt="gallery image">
+            </section>
+            <div class="show-link flex">
+                <a @click="$router.go(-1)">
+                    <img :src="images.worksImages[0]" alt="show-icon" class="show-link__arrow arrow-img">
+                </a>
+                <a @click="$router.go(-1)" class="show-link__text">
+                    <span class="arrow-text">Back</span>
+                </a>
             </div>
         </div>
     </div>
@@ -68,7 +75,7 @@ export default {
      data(){
       return {
             images:{
-                worksImages:['/upload/showArrow-left.png','/upload/works-compass1.png','/upload/works-compass2.png']
+                worksImages:['/upload/showArrow-left.png','/upload/works-compass1.png','/upload/works-compass2.png','/upload/works-compass3.png','/upload/works-compass4.png','/upload/works-compass5.png','/upload/works-compass6.png']
             }
         }
     }

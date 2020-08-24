@@ -3086,11 +3086,18 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
       images: {
-        worksImages: ['/upload/showArrow-left.png', '/upload/works-compass1.png', '/upload/works-compass2.png']
+        worksImages: ['/upload/showArrow-left.png', '/upload/works-compass1.png', '/upload/works-compass2.png', '/upload/works-compass3.png', '/upload/works-compass4.png', '/upload/works-compass5.png', '/upload/works-compass6.png']
       }
     };
   }
@@ -3169,11 +3176,18 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
       images: {
-        worksImages: ['/upload/showArrow-left.png', '/upload/works-burger2.png', '/upload/works-burger3.png']
+        worksImages: ['/upload/showArrow-left.png', '/upload/works-burger2.png', '/upload/works-burger3.png', '/upload/works-burger4.png', '/upload/works-burger5.png', '/upload/works-burger6.png', '/upload/works-burger7.png']
       }
     };
   }
@@ -26754,49 +26768,7 @@ var render = function() {
         ]),
         _vm._v(" "),
         _c("article", { staticClass: "contents flex" }, [
-          _c("div", { staticClass: "detail-left columns" }, [
-            _vm._m(0),
-            _vm._v(" "),
-            _vm._m(1),
-            _vm._v(" "),
-            _vm._m(2),
-            _vm._v(" "),
-            _vm._m(3),
-            _vm._v(" "),
-            _vm._m(4),
-            _vm._v(" "),
-            _c("div", { staticClass: "show-link flex detail-left__link" }, [
-              _c(
-                "a",
-                {
-                  on: {
-                    click: function($event) {
-                      return _vm.$router.go(-1)
-                    }
-                  }
-                },
-                [
-                  _c("img", {
-                    staticClass: "show-link__arrow arrow-img",
-                    attrs: { src: _vm.images.worksImages[0], alt: "show-icon" }
-                  })
-                ]
-              ),
-              _vm._v(" "),
-              _c(
-                "a",
-                {
-                  staticClass: "show-link__text",
-                  on: {
-                    click: function($event) {
-                      return _vm.$router.go(-1)
-                    }
-                  }
-                },
-                [_c("span", { staticClass: "arrow-text" }, [_vm._v("Back")])]
-              )
-            ])
-          ]),
+          _vm._m(0),
           _vm._v(" "),
           _c("div", { staticClass: "detail-right columns" }, [
             _c("img", {
@@ -26810,6 +26782,60 @@ var render = function() {
             })
           ])
         ])
+      ]),
+      _vm._v(" "),
+      _c("section", { staticClass: "gallery" }, [
+        _c("img", {
+          staticClass: "gallery__image gallery__image--2",
+          attrs: { src: _vm.images.worksImages[4], alt: "gallery image" }
+        }),
+        _vm._v(" "),
+        _c("img", {
+          staticClass: "gallery__image gallery__image--3",
+          attrs: { src: _vm.images.worksImages[5], alt: "gallery image" }
+        }),
+        _vm._v(" "),
+        _c("img", {
+          staticClass: "gallery__image gallery__image--1",
+          attrs: { src: _vm.images.worksImages[3], alt: "gallery image" }
+        }),
+        _vm._v(" "),
+        _c("img", {
+          staticClass: "gallery__image gallery__image--3",
+          attrs: { src: _vm.images.worksImages[6], alt: "gallery image" }
+        })
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "show-link flex" }, [
+        _c(
+          "a",
+          {
+            on: {
+              click: function($event) {
+                return _vm.$router.go(-1)
+              }
+            }
+          },
+          [
+            _c("img", {
+              staticClass: "show-link__arrow arrow-img",
+              attrs: { src: _vm.images.worksImages[0], alt: "show-icon" }
+            })
+          ]
+        ),
+        _vm._v(" "),
+        _c(
+          "a",
+          {
+            staticClass: "show-link__text",
+            on: {
+              click: function($event) {
+                return _vm.$router.go(-1)
+              }
+            }
+          },
+          [_c("span", { staticClass: "arrow-text" }, [_vm._v("Back")])]
+        )
       ])
     ])
   ])
@@ -26819,117 +26845,107 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      { staticClass: "detail-left__caption detail-left__caption--1 flex" },
-      [
-        _c("span", [_vm._v("〜〜〜〜")]),
-        _vm._v(" "),
-        _c("div", { staticClass: "caption-text" }, [_vm._v("Info")]),
-        _vm._v(" "),
-        _c("span", [_vm._v("〜〜〜〜")])
-      ]
-    )
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      { staticClass: "detail-left__paragraph detail-left__paragraph--1" },
-      [
-        _c("p", [
-          _vm._v("The concept is meeting new friends with your favorite music.")
-        ]),
-        _vm._v(" "),
-        _c("p", [
-          _vm._v(
-            "First, you register with your email and new password, and then you can see some of posts which another users made in homepage."
-          )
-        ]),
-        _vm._v(" "),
-        _c("p", [
-          _vm._v(
-            "These contain mostly about music event (ex, concert hall, music bar, festival…).\n                        When you’re interested in any particular post, you can send a message or use attending system so you can communicate with others."
-          )
-        ]),
-        _vm._v(" "),
-        _c("p", [
-          _vm._v(
-            "But before communicating with them, you should make your profile because another users can notice your information easily (ex, your favorite music, your image, your native place like that…)."
-          )
-        ]),
-        _vm._v(" "),
-        _c("p", [
-          _vm._v(
-            "Finally when you get along with someone, you can follow them, the follow system will become a symbol of trust and you can hang out with anyone more with music!"
-          )
-        ])
-      ]
-    )
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "detail-left__view-link" }, [
+    return _c("div", { staticClass: "detail-left columns" }, [
       _c(
-        "a",
-        {
-          attrs: {
-            href: "http://musiccompassrei.herokuapp.com",
-            target: "blank"
-          }
-        },
+        "div",
+        { staticClass: "detail-left__caption detail-left__caption--1 flex" },
         [
-          _c("i", { staticClass: "fas fa-search-plus" }),
-          _vm._v("  View This Web Site")
+          _c("span", [_vm._v("〜〜〜〜")]),
+          _vm._v(" "),
+          _c("div", { staticClass: "caption-text" }, [_vm._v("Info")]),
+          _vm._v(" "),
+          _c("span", [_vm._v("〜〜〜〜")])
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "detail-left__paragraph detail-left__paragraph--1" },
+        [
+          _c("p", [
+            _vm._v(
+              "The concept is meeting new friends with your favorite music."
+            )
+          ]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v(
+              "First, you register with your email and new password, and then you can see some of posts which another users made in homepage."
+            )
+          ]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v(
+              "These contain mostly about music event (ex, concert hall, music bar, festival…).\n                        When you’re interested in any particular post, you can send a message or use attending system so you can communicate with others."
+            )
+          ]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v(
+              "But before communicating with them, you should make your profile because another users can notice your information easily (ex, your favorite music, your image, your native place like that…)."
+            )
+          ]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v(
+              "Finally when you get along with someone, you can follow them, the follow system will become a symbol of trust and you can hang out with anyone more with music!"
+            )
+          ])
+        ]
+      ),
+      _vm._v(" "),
+      _c("div", { staticClass: "detail-left__view-link" }, [
+        _c(
+          "a",
+          {
+            attrs: {
+              href: "http://musiccompassrei.herokuapp.com",
+              target: "blank"
+            }
+          },
+          [
+            _c("i", { staticClass: "fas fa-search-plus" }),
+            _vm._v("  View This Web Site")
+          ]
+        )
+      ]),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "detail-left__caption detail-left__caption--2 flex" },
+        [
+          _c("span", [_vm._v("〜〜〜〜")]),
+          _vm._v(" "),
+          _c("div", { staticClass: "caption-text" }, [_vm._v("Tool")]),
+          _vm._v(" "),
+          _c("span", [_vm._v("〜〜〜〜")])
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "detail-left__paragraph detail-left__paragraph--2" },
+        [
+          _c("ul", { staticClass: "detail-list" }, [
+            _c("li", { staticClass: "detail-list__info" }, [_vm._v("Laravel")]),
+            _vm._v(" "),
+            _c("li", { staticClass: "detail-list__info" }, [_vm._v("HTML")]),
+            _vm._v(" "),
+            _c("li", { staticClass: "detail-list__info" }, [_vm._v("CSS")]),
+            _vm._v(" "),
+            _c("li", { staticClass: "detail-list__info" }, [
+              _vm._v("Bootstrap")
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "detail-list__info" }, [
+              _vm._v("AWS(S-3) for saving images")
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "detail-list__info" }, [_vm._v("Heroku")])
+          ])
         ]
       )
     ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      { staticClass: "detail-left__caption detail-left__caption--2 flex" },
-      [
-        _c("span", [_vm._v("〜〜〜〜")]),
-        _vm._v(" "),
-        _c("div", { staticClass: "caption-text" }, [_vm._v("Tool")]),
-        _vm._v(" "),
-        _c("span", [_vm._v("〜〜〜〜")])
-      ]
-    )
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      { staticClass: "detail-left__paragraph detail-left__paragraph--2" },
-      [
-        _c("ul", { staticClass: "detail-list" }, [
-          _c("li", { staticClass: "detail-list__info" }, [_vm._v("Laravel")]),
-          _vm._v(" "),
-          _c("li", { staticClass: "detail-list__info" }, [_vm._v("HTML")]),
-          _vm._v(" "),
-          _c("li", { staticClass: "detail-list__info" }, [_vm._v("CSS")]),
-          _vm._v(" "),
-          _c("li", { staticClass: "detail-list__info" }, [_vm._v("Bootstrap")]),
-          _vm._v(" "),
-          _c("li", { staticClass: "detail-list__info" }, [
-            _vm._v("AWS(S-3) for saving images")
-          ]),
-          _vm._v(" "),
-          _c("li", { staticClass: "detail-list__info" }, [_vm._v("Heroku")])
-        ])
-      ]
-    )
   }
 ]
 render._withStripped = true
@@ -26993,49 +27009,7 @@ var render = function() {
         ]),
         _vm._v(" "),
         _c("article", { staticClass: "contents flex" }, [
-          _c("div", { staticClass: "detail-left columns" }, [
-            _vm._m(0),
-            _vm._v(" "),
-            _vm._m(1),
-            _vm._v(" "),
-            _vm._m(2),
-            _vm._v(" "),
-            _vm._m(3),
-            _vm._v(" "),
-            _vm._m(4),
-            _vm._v(" "),
-            _c("div", { staticClass: "show-link flex detail-left__link" }, [
-              _c(
-                "a",
-                {
-                  on: {
-                    click: function($event) {
-                      return _vm.$router.go(-1)
-                    }
-                  }
-                },
-                [
-                  _c("img", {
-                    staticClass: "show-link__arrow arrow-img",
-                    attrs: { src: _vm.images.worksImages[0], alt: "show-icon" }
-                  })
-                ]
-              ),
-              _vm._v(" "),
-              _c(
-                "a",
-                {
-                  staticClass: "show-link__text",
-                  on: {
-                    click: function($event) {
-                      return _vm.$router.go(-1)
-                    }
-                  }
-                },
-                [_c("span", { staticClass: "arrow-text" }, [_vm._v("Back")])]
-              )
-            ])
-          ]),
+          _vm._m(0),
           _vm._v(" "),
           _c("div", { staticClass: "detail-right columns" }, [
             _c("img", {
@@ -27049,6 +27023,55 @@ var render = function() {
             })
           ])
         ])
+      ]),
+      _vm._v(" "),
+      _c("section", { staticClass: "gallery" }, [
+        _c("img", {
+          staticClass: "gallery__image gallery__image--1",
+          attrs: { src: _vm.images.worksImages[3], alt: "gallery image" }
+        }),
+        _vm._v(" "),
+        _c("img", {
+          staticClass: "gallery__image gallery__image--2",
+          attrs: { src: _vm.images.worksImages[5], alt: "gallery image" }
+        }),
+        _vm._v(" "),
+        _c("img", {
+          staticClass: "gallery__image gallery__image--3",
+          attrs: { src: _vm.images.worksImages[6], alt: "gallery image" }
+        })
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "show-link flex" }, [
+        _c(
+          "a",
+          {
+            on: {
+              click: function($event) {
+                return _vm.$router.go(-1)
+              }
+            }
+          },
+          [
+            _c("img", {
+              staticClass: "show-link__arrow arrow-img",
+              attrs: { src: _vm.images.worksImages[0], alt: "show-icon" }
+            })
+          ]
+        ),
+        _vm._v(" "),
+        _c(
+          "a",
+          {
+            staticClass: "show-link__text",
+            on: {
+              click: function($event) {
+                return _vm.$router.go(-1)
+              }
+            }
+          },
+          [_c("span", { staticClass: "arrow-text" }, [_vm._v("Back")])]
+        )
       ])
     ])
   ])
@@ -27058,113 +27081,99 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      { staticClass: "detail-left__caption detail-left__caption--1 flex" },
-      [
-        _c("span", [_vm._v("〜〜〜〜")]),
-        _vm._v(" "),
-        _c("div", { staticClass: "caption-text" }, [_vm._v("Info")]),
-        _vm._v(" "),
-        _c("span", [_vm._v("〜〜〜〜")])
-      ]
-    )
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      { staticClass: "detail-left__paragraph detail-left__paragraph--1" },
-      [
-        _c("p", [
-          _vm._v(
-            "The name of website is “Burger Geek”, its services are just running restaurant and delivery of Hamburger.I have learned Vanila Javascript which is included ES6 (perfect pure Javascript!) for two months, I wanted to create a project as compilation of only the skill."
-          )
-        ]),
-        _vm._v(" "),
-        _c("p", [_vm._v("The website consists 3 pages.")]),
-        _vm._v(" "),
-        _c("p", [
-          _vm._v(
-            "First, I’d like to introduce the login page. One of the biggest features of it is that it’s used only pure HTML5 and CSS3. The login form doesn’t work though, I wanted to express the ambience of Burger Geek."
-          )
-        ]),
-        _vm._v(" "),
-        _c("p", [
-          _vm._v(
-            "In contrast, I used mostly Materialize CSS(which is CSS frame work ) on Home page to compare the differences of frame work and pure css page."
-          )
-        ]),
-        _vm._v(" "),
-        _c("p", [
-          _vm._v(
-            "Moreover.The delivery page is the website's main page, which I was willing to use Vanila Javascript for various aspects such of setting address, Carousel etc… Frankly, here is pretty fun! You can type your address and choose your favorite burger to put it into a cart. If you wanna examine my Javascript ability, I recommend to inspect this page carefully."
-          )
-        ])
-      ]
-    )
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "detail-left__view-link" }, [
+    return _c("div", { staticClass: "detail-left columns" }, [
       _c(
-        "a",
-        {
-          attrs: {
-            href: "https://github.com/ReiNagahashi/BurgerGeek",
-            target: "blank"
-          }
-        },
+        "div",
+        { staticClass: "detail-left__caption detail-left__caption--1 flex" },
         [
-          _c("i", { staticClass: "fab fa-github" }),
-          _vm._v("  View Git Repository")
+          _c("span", [_vm._v("〜〜〜〜")]),
+          _vm._v(" "),
+          _c("div", { staticClass: "caption-text" }, [_vm._v("Info")]),
+          _vm._v(" "),
+          _c("span", [_vm._v("〜〜〜〜")])
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "detail-left__paragraph detail-left__paragraph--1" },
+        [
+          _c("p", [
+            _vm._v(
+              "The name of website is “Burger Geek”, its services are just running restaurant and delivery of Hamburger.I have learned Vanila Javascript which is included ES6 (perfect pure Javascript!) for two months, I wanted to create a project as compilation of only the skill."
+            )
+          ]),
+          _vm._v(" "),
+          _c("p", [_vm._v("The website consists 3 pages.")]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v(
+              "First, I’d like to introduce the login page. One of the biggest features of it is that it’s used only pure HTML5 and CSS3. The login form doesn’t work though, I wanted to express the ambience of Burger Geek."
+            )
+          ]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v(
+              "In contrast, I used mostly Materialize CSS(which is CSS frame work ) on Home page to compare the differences of frame work and pure css page."
+            )
+          ]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v(
+              "Moreover.The delivery page is the website's main page, which I was willing to use Vanila Javascript for various aspects such of setting address, Carousel etc… Frankly, here is pretty fun! You can type your address and choose your favorite burger to put it into a cart. If you wanna examine my Javascript ability, I recommend to inspect this page carefully."
+            )
+          ])
+        ]
+      ),
+      _vm._v(" "),
+      _c("div", { staticClass: "detail-left__view-link" }, [
+        _c(
+          "a",
+          {
+            attrs: {
+              href: "https://github.com/ReiNagahashi/BurgerGeek",
+              target: "blank"
+            }
+          },
+          [
+            _c("i", { staticClass: "fab fa-github" }),
+            _vm._v("  View Git Repository")
+          ]
+        )
+      ]),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "detail-left__caption detail-left__caption--2 flex" },
+        [
+          _c("span", [_vm._v("〜〜〜〜")]),
+          _vm._v(" "),
+          _c("div", { staticClass: "caption-text" }, [_vm._v("Tool")]),
+          _vm._v(" "),
+          _c("span", [_vm._v("〜〜〜〜")])
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "detail-left__paragraph detail-left__paragraph--2" },
+        [
+          _c("ul", { staticClass: "detail-list" }, [
+            _c("li", { staticClass: "detail-list__info" }, [
+              _vm._v("Vanila Javascript")
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "detail-list__info" }, [_vm._v("HTML")]),
+            _vm._v(" "),
+            _c("li", { staticClass: "detail-list__info" }, [_vm._v("CSS")]),
+            _vm._v(" "),
+            _c("li", { staticClass: "detail-list__info" }, [
+              _vm._v("Materialize")
+            ])
+          ])
         ]
       )
     ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      { staticClass: "detail-left__caption detail-left__caption--2 flex" },
-      [
-        _c("span", [_vm._v("〜〜〜〜")]),
-        _vm._v(" "),
-        _c("div", { staticClass: "caption-text" }, [_vm._v("Tool")]),
-        _vm._v(" "),
-        _c("span", [_vm._v("〜〜〜〜")])
-      ]
-    )
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      { staticClass: "detail-left__paragraph detail-left__paragraph--2" },
-      [
-        _c("ul", { staticClass: "detail-list" }, [
-          _c("li", { staticClass: "detail-list__info" }, [
-            _vm._v("Vanila Javascript")
-          ]),
-          _vm._v(" "),
-          _c("li", { staticClass: "detail-list__info" }, [_vm._v("HTML")]),
-          _vm._v(" "),
-          _c("li", { staticClass: "detail-list__info" }, [_vm._v("CSS")]),
-          _vm._v(" "),
-          _c("li", { staticClass: "detail-list__info" }, [
-            _vm._v("Materialize")
-          ])
-        ])
-      ]
-    )
   }
 ]
 render._withStripped = true
@@ -27281,7 +27290,7 @@ var render = function() {
                 ]),
                 _vm._v(" "),
                 _c("h1", { staticClass: "show-main__title secondary-title" }, [
-                  _vm._v("Burger Geek")
+                  _vm._v("Speak")
                 ])
               ]),
               _vm._v(" "),

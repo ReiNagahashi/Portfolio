@@ -589,10 +589,6 @@ small {
   color: #c70067;
 }
 
-.works-show .show-main .contents .detail-left__link {
-  margin-top: 7rem;
-}
-
 .works-show .show-main .contents .detail-right__image,
 .works-show .show-main .contents .detail-images__image {
   width: 100%;
@@ -653,6 +649,15 @@ small {
 
 .works-show .show-main .contents .tool {
   margin-bottom: 15rem;
+}
+
+.works-show .gallery__image {
+  width: 100%;
+  margin-top: 12rem;
+}
+
+.works-show .gallery__image--3 {
+  margin-bottom: 4rem;
 }
 
 .bubble {

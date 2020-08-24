@@ -28,7 +28,7 @@
                             <svg width="100" height="100">
                                 <circle class="bubble" cx="50" cy="45" r="20" />
                             </svg>
-                            <h1 class="show-main__title secondary-title">Burger Geek</h1>  
+                            <h1 class="show-main__title secondary-title">Speak</h1>  
                         </div>
                     <article class="contents">
                         <!-- Image -->
